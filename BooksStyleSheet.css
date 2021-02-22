@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('images/book-cover.jpg');
+    width: 100%;
+}
+
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(22, 22, 22, 0.8);
+    color:royalblue;
+    font-size: 50px;
+    text-align: center;
+    position: sticky;
+    top:0;
+}
+
+#content{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    color:white;
+    background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 1%;
+  
+}
+
+.box{
+    width: auto;
+    height: 370px;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-left: 5%;
+    border-radius: 10px;
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+.box:hover{
+    box-shadow: 1px 1px 2px 2px powderblue;
+}
+
+.box div{
+    display: inline-block;
+}
+
+.book{
+    width: 20%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.book:hover{
+    width:22%;
+    height:95%;
+}
+
+#book1{
+	background-image: url('images/Da_Vinci_Code.jpg');
+}
+#book2{
+    background-image: url('images/five-feet-apart.jpg');
+}
+#book3{
+    background-image: url('images/3_mistakes_of_my_life.jpg');
+}
+#book4{
+    background-image: url('images/the_canterville_ghost.jpg');
+}
+#book5{
+    background-image: url('images/the-invisible-man.jpg');
+}
+
+.about-book{
+    width: 70%;
+    margin-right: 5%;
+    float: right;
+}
+
+a{
+    color:snow;
+}
+
+footer{
+    width: 100vw;
+    background-color: rgb(80,80,80);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}

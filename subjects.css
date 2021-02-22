@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:black;
+    text-align: center;
+    color:powderblue;
+
+}
+header{
+    text-align: center;
+}
+
+h3{
+    color: indianred;
+}
+
+h1{
+    color:tomato;
+}

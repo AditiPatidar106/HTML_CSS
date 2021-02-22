@@ -1,0 +1,44 @@
+/**
+ *Webpage about myself
+ */
+*{
+    margin-right: 5px;
+    margin-left:5px ;
+}
+p{
+    color:powderblue;
+    font-family:cursive lucida Handwriting;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+nav {
+    height: 50px;
+    background-color:black;
+    margin-right: 0;
+
+}
+
+nav ul li{
+    list-style-type:none;
+    width: 150px;
+    float:left;
+    text-align:center ;
+    border-block-end: solid 1px #CCC;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:greenyellow;
+    line-height: 50px;
+    display: block;
+}
+li a:hover{
+    background-color: paleturquoise;
+    color:royalblue;
+} 
+
+footer{
+    color: white;
+}
